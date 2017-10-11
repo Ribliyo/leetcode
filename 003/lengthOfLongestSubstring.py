@@ -7,8 +7,7 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        start = 0
-        m = 0
+        start, m = 0, 0
         dict = {}
         for idx, c in enumerate(s):
             if c in dict:
